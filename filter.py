@@ -6,10 +6,13 @@ def MayorEdad(x):
     else:
         return True
 
-adultos = filter (MayorEdad,Edades)
+adulto = filter (MayorEdad,Edades)
 
-for x in adultos:
+for x in adulto:
     print(x)
 
-print(adultos)
+print(adulto)
+
+print("Te pase xd")
+
 
